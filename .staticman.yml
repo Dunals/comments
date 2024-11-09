@@ -1,0 +1,14 @@
+comments:
+  type: array
+  path: comments
+  format: yaml
+  fields:
+    - name: author
+      label: Name
+      type: string
+      required: true
+    - name: comment
+      label: Comment
+      type: text
+      required: true
+  required: true
