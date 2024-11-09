@@ -1,14 +1,10 @@
-comments:
-  type: array
-  path: comments
-  format: yaml
-  fields:
-    - name: author
-      label: Name
-      type: string
-      required: true
-    - name: comment
-      label: Comment
-      type: text
-      required: true
-  required: true
+branch: master
+fields:
+  - name: author
+    label: Author
+    placeholder: "Your name"
+    required: true
+  - name: comment
+    label: Comment
+    placeholder: "Your comment"
+    required: true
